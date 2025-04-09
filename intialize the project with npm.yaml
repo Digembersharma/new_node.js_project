@@ -1,0 +1,19 @@
+intialize the project with npm
+install express this is installed by using package npm i express
+// package.json batati ha ki poject sa related sara data ha iska pass // or we can say poject sa related sara data pakage.json ma hota haa
+
+ setting up parsers for form // done
+setting up ejs pages /// ejs mean jo frentend hamar jo dikhaga wo ejs haa
+1. install ejs form npm 
+set up ejs as a midlleware for view engine
+setting up public static file
+
+
+1. dyamic routing 
+2.how to get data coming from frontend a backend router 
+3. setting up parsers for form
+setting up ejs pages 
+setting up public static file
+
+
+if we not remove public the this web page not work

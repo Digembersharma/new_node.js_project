@@ -1,0 +1,67 @@
+<!-- views/submit.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Submitted</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8b400, #f06c64);
+            font-family: 'Arial', sans-serif;
+        }
+        .submit-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+        .task-card {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        a {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #c14b2b;
+        }
+    </style>
+</head>
+<body>
+    <div class="submit-container">
+        <div class="task-card">
+            <h1>Task Submitted Successfully!</h1>
+            <h2>Title: <%= title %></h2>
+            <p><strong>Details:</strong> <%= details %></p>
+            <a href="/">Go Back to Create Another Task</a>
+        </div>
+    </div>
+</body>
+</html>
